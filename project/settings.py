@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django_extensions',
     'pokedex'
 ]
 
@@ -77,6 +78,13 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
 DATABASES = {'default': dj_database_url.parse('postgres://localhost:5432/project_001')}
+
+
+GRAPH_MODELS = {
+    'all_applications': True,
+    'group_models': True,
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
