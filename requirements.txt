@@ -1,0 +1,6 @@
+Django==1.10
+wheel==0.26.0
+dj-database-url==0.4.1
+Django==1.10
+djangorestframework==3.4.4
+psycopg2==2.6.2
