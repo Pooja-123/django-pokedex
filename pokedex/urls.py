@@ -8,4 +8,3 @@ router = routers.SimpleRouter()
 router.register('pokemon', PokemonModelViewSet)
 
 urlpatterns = router.urls
-print urlpatterns
