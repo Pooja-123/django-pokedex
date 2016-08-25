@@ -37,3 +37,7 @@ This is a django-based Pokedex API.
     ./manage.py runserver
 
 The project will be up at `localhost:8000`
+
+## Pokedex
+
+![pokedex_schema](./pokedex/schema.png)
