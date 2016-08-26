@@ -38,6 +38,20 @@ This is a django-based Pokedex API.
 
 The project will be up at `localhost:8000`
 
+**Postres DB on OS X**
+The easies way to use Postres on OS X is with the [Postgres.app](http://postgresapp.com/)
+
+Once you have postgres up and running, drop into the postgres shell to create a table.
+
+    $ psql
+
+    psql (9.X.X)
+    Type "help" for help.
+
+    username=# CREATE DATABASE project_001;
+
+Then run migrations (`./manage.py migrate`)
+
 ## Pokedex
 
 ![pokedex_schema](./pokedex/schema.png)
