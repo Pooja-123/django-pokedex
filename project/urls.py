@@ -19,5 +19,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^api/v1/', include('pokedex.urls'))
+    url(r'^api/v1/', include(r'pokedex.urls'))
 ]
