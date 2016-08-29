@@ -3,7 +3,7 @@ from rest_framework import routers
 from pokedex.views import PokemonModelViewSet
 
 
-router = routers.SimpleRouter()
+router = routers.DefaultRouter()
 
 router.register('pokemon', PokemonModelViewSet)
 
